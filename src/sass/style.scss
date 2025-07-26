@@ -780,10 +780,13 @@ main {
 	.mobile .container {
 		padding: 0 3rem;
 	}
-	.section,
+	.section{
+		padding: 9rem 3rem;
+	}
+
 	.footer .footer-contents,
 	.footer .credits {
-		padding: 9rem 3rem;
+		padding: 0rem 3rem;
 	}
 
 	.contact .wrapper .contact-items .form {
