@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./dist/img/favicon.ico" type="image/x-icon">
+    <title>Odwiedź najpiękniejszy małopolski park | Forest Group</title>
+    <meta name="description"
+        content="Szukasz miejsca w którym można odciąć się od codziennego zgiełku i aktywnie wypocząć na łonie natury? Odwiedź nasz park! Jedynie 30 km od Krakowa. ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+<!-- <link href="/dist/css/_hamburgers.css" rel="stylesheet"> -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="dist/css/style.min.css"></head>
+
+<body>
+
+    <nav class="navbar desktop">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="ti ti-christmas-tree-filled"></i> Forest</a>
+        <ul class="nav-items">
+            <li class="nav-link home-link"><a href="index.html#home">Home</a>
+            </li>
+            <li class="nav-link about-link"><a href="index.html#about">O nas</a></li>
+            <li class="nav-link offer-link"><a href="index.html#offer">Oferta</a></li>
+            <li class="nav-link contact-link"><a href="contact.html">Kontakt</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+
+<nav class="navbar mobile">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><i class="ti ti-christmas-tree-filled"></i> Forest</a>
+        <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </div>
+    <ul class="nav-items">
+        <li class="nav-link home-link"><a href="index.html">Home</a>
+        </li>
+        <li class="nav-link about-link"><a href="index.html#about">O nas</a></li>
+        <li class="nav-link offer-link"><a href="index.html#offer">Oferta</a></li>
+        <li class="nav-link contact-link"><a href="contact.html">Kontakt</a></li>
+    </ul>
+</nav>
+    <main>
+
+        <section class="section contact" id="contact">
+            <div class="wrapper">
+                <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Napisz do nas lub umów się na spotkanie
+                </h2>
+                <div class="contact-items">
+                    <form action="" class="form">
+                        <div class="form-box">
+                            <label for="name" class="form-label">Imię:</label>
+                            <input type="text" class="form-input" id="name" placeholder="Wpisz imię i nazwisko">
+                            <p class="error-message">error</p>
+                        </div>
+                        <div class="form-box">
+                            <label for="email" class="form-label">Adres email:</label>
+                            <input type="text" class="form-input" id="email" placeholder="Wpisz adres email">
+                            <p class="error-message">error</p>
+                        </div>
+                        <div class="form-box">
+                            <label for="message" class="form-message-label">Wiadomość:</label>
+                            <textarea class="form-message-input" id="message"
+                                placeholder="Miejsce na twoją wiadomość"></textarea>
+                            <p class="error-message">error</p>
+                        </div>
+                        <button type="submit" class="form-btn">Wyślij</button>
+                    </form>
+
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898050088946!2d19.890269276548445!3d50.088195613380805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sMcDonald&#39;s!5e0!3m2!1sno!2sno!4v1753467650525!5m2!1sno!2sno"
+                            width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+        <div class="popup-background"></div>
+        <div class="popup">
+            <p>Formularz został wysłany!</p>
+            <p>Skontaktujemy się w ciągu najbliższych kilku dni.</p>
+            <button class="close">Zamknij</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+    <div class="footer-contents">
+        <div class="logo">
+            <p><i class="ti ti-christmas-tree-filled"></i> Forest</p>
+        </div>
+        <div class="footer-links">
+            <div class="group-footer">
+                <h3 class="group-title">O nas</h3>
+                <p>Historia</p>
+                <p>Parki</p>
+                <p>Opinie</p>
+            </div>
+            <div class="group-footer">
+                <h3 class="group-title">Nasza firma</h3>
+                <p>Praca</p>
+                <p>Kadry</p>
+                <p>Zarząd</p>
+            </div>
+            <div class="group-footer">
+                <h3 class="group-title">Dokumenty</h3>
+                <p>Wnioski</p>
+                <p>Rezerwacje</p>
+            </div>
+        </div>
+    </div>
+    <div class="credits">
+        <p class="credits-title">Credits:</p>
+        <p class="credits-line">Favicon designed by <a href="www.freepik.com">Freepik</a></p>
+    </div>
+
+    <div class="copy-forest">
+        <p>&copy; <span class="year"></span> Forest Group Company Ltd.</p>
+    </div>
+
+</footer>    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+    <script src="./dist/js/contact.min.js"></script>
+</body>
+
+</html>
