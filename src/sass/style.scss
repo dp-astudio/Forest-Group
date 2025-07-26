@@ -198,7 +198,7 @@ nav {
 	position: relative;
 	justify-content: center;
 	margin-top: 8rem;
-	height: 350px;
+	height: 35rem;
 	width: 100%;
 	background-image: url('../../dist/img/jungle-desktop.jpg');
 	background-position-y: 70%;
@@ -235,12 +235,11 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 50px 0;
-	padding: 0 80px;
+	padding: 9rem 8rem;
 	width: 100%;
 	.section-title {
-		margin-bottom: 50px;
-		font-size: 3rem;
+		margin-bottom: 9rem;
+		font-size: 3.2rem;
 		font-weight: 300;
 		text-transform: uppercase;
 		text-align: center;
@@ -518,7 +517,7 @@ main {
 }
 
 .contact {
-	margin-top: 120px;
+	margin-top: 10rem;
 	.contact-items {
 		display: flex;
 		justify-content: space-around;
@@ -606,6 +605,7 @@ main {
 	transform: translate(-50%, -50%);
 	height: 60vh;
 	width: 80vw;
+	text-align: center;
 	font-size: 2rem;
 	background-color: c.$white;
 	border-radius: 8px;
@@ -618,7 +618,7 @@ main {
 		line-height: 3rem;
 	}
 	.close {
-		margin: 20px;
+		margin-top: 2rem;
 		height: 50px;
 		width: 150px;
 		background-color: c.$highlight;
@@ -777,12 +777,15 @@ main {
 }
 
 @media (max-width: 576px) {
-	.mobile .container,
+	.mobile .container {
+		padding: 0 3rem;
+	}
 	.section,
 	.footer .footer-contents,
 	.footer .credits {
-		padding: 0 30px;
+		padding: 9rem 3rem;
 	}
+
 	.contact .wrapper .contact-items .form {
 		width: 100%;
 	}
